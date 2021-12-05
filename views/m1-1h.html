@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa5c3760e8.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/bootstrap-4.6.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <title>Axel</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+                <div>
+                    <img src="../img/logo.svg" alt="Logo" class="logo">
+                </div>
+                <a class="navbar-brand" href="../index.html">Axel Constructor </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+                            Modelos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./m1-1h.html">1 dormitorio</a>
+                                <a class="dropdown-item" href="#">2 dormitorios</a>
+                                <a class="dropdown-item" href="#">3 dormitorios</a>
+                                <a class="dropdown-item" href="#">4 dormitorios</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Metodos de construcción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section >
+            <div class="container gallery-container mt-6">
+                <h1>Modelo uno</h1>
+                <div class="tz-gallery">            
+                    <div class="row">           
+                        <div class="col-sm-12 col-md-8">
+                            <a class="lightbox" href="../img/modelos/1h/frenteM1.jpg">
+                                <img src="../img/modelos/1h/frenteM1.jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 pt-5 pl-2">
+                            <h2>Características</h2>
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td>Estilo arquitectónico</td>
+                                        <td>Minimalismo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Superficie cubierta</td>
+                                        <td>52,80 m2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h5>Superficie útil locales</h5>
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td>Cocina</td>
+                                        <td>–  8,00 m2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Habitación</td>
+                                        <td>10,15 m2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../img/modelos/1h/internoM1.jpg">
+                                <img src="../img/modelos/1h/internoM1.jpg" alt="Interior">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../img/modelos/1h/internoM1.jpg">
+                                <img src="../img/modelos/1h/internoM1.jpg" alt="Coast">
+                            </a>
+                        </div> 
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../img/modelos/1h/CroquisM1.jpg">
+                                <img src="../img/modelos/1h/CroquisM1.jpg" alt="Rails">
+                            </a>
+                        </div>
+            
+                    </div>
+            
+                </div>
+            
+            </div>            
+        </section>
+        <footer>
+            <div class="container">
+                <h1>Envianos tu mensaje</h1>
+                <form target="_blank" action="https://formsubmit.co/mauroh03@hotmail.com" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+                            </div>
+                            <div class="col">
+                                <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" name="provincia" class="form-control" placeholder="Provincia" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" name="ciudad" class="form-control" placeholder="ciudad" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tu mensaje" class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+                </form>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
